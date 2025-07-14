@@ -1,0 +1,83 @@
+Got it! Here's your updated list of **20 `while` loop-based logic-building Python programs** — **without any pattern printing**. Each includes its **difficulty level**.
+
+---
+
+### ✅ **Easy (1–7)**
+
+Basic understanding of loops and number operations.
+
+1. **Print numbers from 1 to 10**
+   *Level: Easy*
+
+2. **Print all even numbers between 1 to 50**
+   *Level: Easy*
+
+3. **Calculate the sum of first N natural numbers**
+   *Level: Easy*
+
+4. **Print multiplication table of a given number**
+   *Level: Easy*
+
+5. **Count the number of digits in an integer**
+   *Level: Easy*
+
+6. **Reverse a given number**
+   *Level: Easy*
+
+7. **Print each digit of a number (one per line)**
+   *Level: Easy*
+
+---
+
+### 🟡 **Medium (8–15)**
+
+Adds some logical checks and slightly complex conditions.
+
+8. **Check if a number is a palindrome (e.g., 121)**
+   *Level: Medium*
+
+9. **Check if a number is a prime**
+   *Level: Medium*
+
+10. **Find factorial of a number using while loop**
+    *Level: Medium*
+
+11. **Calculate base^exponent (e.g., 2^5)**
+    *Level: Medium*
+
+12. **Sum of digits of a number**
+    *Level: Medium*
+
+13. **Print Fibonacci series up to N terms**
+    *Level: Medium*
+
+14. **Accept numbers from user until they enter 0, then print total sum**
+    *Level: Medium*
+
+15. **Count how many times a specific digit appears in a number**
+    *Level: Medium*
+
+---
+
+### 🔴 **Hard (16–20)**
+
+Involve nested logic, user input loops, or special number checks.
+
+16. **Find GCD (Greatest Common Divisor) of two numbers**
+    *Level: Hard*
+
+17. **Check if a number is an Armstrong number (e.g., 153 = 1³ + 5³ + 3³)**
+    *Level: Hard*
+
+18. **Build a menu-driven calculator (repeat until user chooses Exit)**
+    *Level: Hard*
+
+19. **Check if a number is a Strong number (sum of factorial of digits = number)**
+    *Level: Hard*
+
+20. **Create a "Guess the Number" game**
+    *Level: Hard*
+
+---
+
+Let me know which ones you'd like the code for — or if you want them all in one file to practice!
