@@ -1,10 +1,16 @@
-for i in range(1,6):
-    print(i)
+print("Numbers :",end=" ")
+for i in range(1,11):
+    print(i,end=" ")
+print()
 
-print("Odd numbers :")
-for i in range(1,20,2):
-    print(i)
+print("Odd: ",end=" ")
 
-print("Even Numbers :")
-for i in range(2,21):
-    print(i)
+for j in range(1,20,2):
+    print(j,end=" ")
+
+print()
+
+print("Even: ",end=" ")
+
+for j in range(2,21,2):
+    print(j,end=" ")

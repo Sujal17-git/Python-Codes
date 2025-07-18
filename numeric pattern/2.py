@@ -1,10 +1,17 @@
-n = int(input("Enter Number for Table :"))
+while True:
 
-for i in range(1,11):
-    print(n," X",i," =",i*n)
+    choice = input("Enter you wanna print Square till numbers or Table (s/t) : ").lower()
 
+    if choice=="s":
+        Border = int(input("Enter Border number to get Square : "))
+        for i in range(1,Border+1):
+            print(f"{i} Square = {i*i}")
+    elif choice=="t":
+        Table = int(input("Enter which table you want : "))
+        for i in range(1,11):
+            print(f"{Table} X {i} = {Table*i}")
+    
+    repeat = input("wanna exit, press 'E': ").lower()
 
-square_till = int(input("Enter Number till you wanna print square :"))
-
-for j in range(1,square_till):
-    print("Square of :",j,"is",j*j)
+    if repeat=="e":
+        break
