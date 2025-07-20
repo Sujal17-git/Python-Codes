@@ -1,9 +1,8 @@
-# factorial series
+n = int(input("Enter Number to find factorial : "))
 
-n = int(input("Enter number :"))
+factorial = 1
 
+for i in range(1,n+1):
+    factorial*=i
 
-factorial =1
-for i in range(1, n+1):
-    factorial *=i
-    print(f"Factorial of {i}: {factorial}")
+print(f"Factorial of {n} is {factorial}")

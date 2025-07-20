@@ -1,21 +1,13 @@
-# SIMPLE NUMBER SYSTEM
+n=10
 
-print("Simple Numbers :")
-for i in range(1,16):
+for i in range(1,n+1):
     print(i,end=" ")
-print()
 
-
-# odd Numbers
-
-print("odd Numbers :")
-for i in range(1,20,2):
-    print(i,end=" ")
-print()
-
-# Even NUMBERS
-
-print("Even Numbers :")
-for i in range(2,21,2):
-    print(i,end=" ")
-print()
+for i in range(n):
+    if i%2==0:
+        print(f"{i} is a even number")
+    
+for i in range(n):
+    if i%2!=0:
+        print(f"{i} is Odd Number")
+    

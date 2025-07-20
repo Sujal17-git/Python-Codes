@@ -1,10 +1,17 @@
-# Prime number series
+   
 
-n = int(input("Enter Number :"))
+while True:
+    n = int(input("Enter Number to check prime or not : "))
+    prime=True
 
-for num in range(2, n+1):
-    for i in range(2,int(num ** 0.5)+1):
-        if num % i ==0:
-            break
+    for i in range(2,n):
+        if n%i==0:
+            prime = False
+
+    if prime:
+        print("Number Is Prime")
     else:
-        print(num,end=" ")
+        print("Not Prime")
+    
+    if n != int:
+        break
